@@ -1,0 +1,16 @@
+.todo-item {
+    .well {
+        margin-bottom: 5px;
+        .checkbox {
+            margin: 0;
+            padding: 0 15px;
+            label {
+                word-break: break-word;
+            }
+            label.completed {
+                text-decoration: line-through;        
+            }
+        }
+
+    }
+}

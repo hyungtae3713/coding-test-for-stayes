@@ -1,8 +1,8 @@
 import express from 'express';
-import post from './post';
+import todo from './todo';
 
 const router = express.Router();
 
-router.use('/posts', post);
+router.use('/todos', todo);
 
 export default router;

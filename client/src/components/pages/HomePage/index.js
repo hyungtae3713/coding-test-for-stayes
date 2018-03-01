@@ -1,13 +1,15 @@
 import React from 'react';
-import { PostList } from 'containers';
-
+import { TodoContainer } from 'containers';
 import { PageTemplate } from 'components'
 
-const POST_ITEM_LIMIT = 10;
+import styles from './HomePage.scss';
+import classNames from 'classnames/bind';
+
+const cx = classNames.bind(styles);
 const HomePage = () => {
   return (
-    <PageTemplate>
-      <PostList limit={POST_ITEM_LIMIT} />
+    <PageTemplate className={cx('homepage')}>
+      <TodoContainer/>
     </PageTemplate>
   );
 };

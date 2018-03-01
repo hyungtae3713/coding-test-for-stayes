@@ -13,7 +13,7 @@ export class Action {
 
 };
 
-export const validate = (response) => {
-  // TODO: 상태 체크 처리 해야함(htkim, 20171212)
+export const validate = (response = { }) => {
+  // TODO: 상태처리
   return response.data;
 };

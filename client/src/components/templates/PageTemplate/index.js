@@ -1,8 +1,8 @@
 import React from 'react';
 
-const PageTemplate = ({ children }) => {
+const PageTemplate = ({ className, children }) => {
   return (
-    <main>{children}</main>
+    <main className={className}>{children}</main>
   )
 };
 
