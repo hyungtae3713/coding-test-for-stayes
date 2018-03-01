@@ -1,9 +1,5 @@
-Boilerplate For Server Side
 
-## 주요 기술스택
-
-### 시작하기(개발용)
-
+### 시작하기
 먼저 필요한 모든 모듈 설치
 
 >Note: `node`환경인 것을 전제함

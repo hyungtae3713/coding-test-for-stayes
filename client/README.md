@@ -1,17 +1,5 @@
-Boilerplate For Client Side
 
-## 주요 기술스택
-
-- [reactjs](https://reactjs.org/)
-- [redux](https://redux.js.org/)
-- [redux-saga](https://redux-saga.js.org/)
-- [react-router](https://reacttraining.com/react-router/)
-- [Arc](https://github.com/diegohaz/arc)
-- [webpack](https://webpack.js.org/)
-- [normalizr](https://github.com/paularmstrong/normalizr)
-- [scss](http://sass-lang.com/)
-
-### 시작하기(개발용)
+### 시작하기
 
 먼저 필요한 모든 모듈 설치
 
